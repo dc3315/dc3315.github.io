@@ -10,24 +10,17 @@ body {
   line-height: 1.64;
 }
 
+
+
 ul,li{
   margin: 15px 0;
   padding: 0;
-    list-style-type: none;
-  list-style-type: none;
+  /* list-style-type: none; */
   list-style-position:inside;
 }
 
-
-li.no-space {
-  list-style-type: none;
-  list-style-position:inside;
-  margin:0px 0 !important;
-  padding:0;
-}
 
 ul.no-space > li {
-
   margin:0px 0 !important;
   padding:0;
 }
