@@ -61,16 +61,22 @@ h3 {
   font-size: 28px;
 }
 
-p.lead2 {
+
+p.title {
+  font-size: 24px;
+  color: #727878;
+}
+
+p.subtitle {
   text-align: center;
   font-size: 18px;
   color: #727878;
 }
-p.lead2 a {
-  color: #ffffff;
+p.subtitle a {
+  color: #727878;
   text-decoration: underline;
 }
-p.lead2 a:hover {
+p.subtitle a:hover {
   text-decoration: none;
 }
 
