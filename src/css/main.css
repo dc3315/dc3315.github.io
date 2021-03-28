@@ -154,6 +154,8 @@ dd { float: left; }
   background-position: 0px -96px;
 }
 
+.top30 { margin-top:30px; }
+
 .jumbotron {
   /* background: no-repeat center right fixed url(images/background.jpg); */
   height: 630px;
@@ -239,6 +241,7 @@ dd { float: left; }
   right: 5%;
   background-color: #222222;
   text-align: center;
+  border-radius: 25px 25px 0px 0px;
   z-index: 6;
 }
 .jumbotron .scroll-down .glyphicon {
@@ -260,6 +263,7 @@ dd { float: left; }
 .navbar {
   border: 0px;
   background-color: #222222;
+  border-radius: 0px 0px 25px 25px;
   position: absolute;
   top: 100%;
   right: 5%;
@@ -298,7 +302,14 @@ dd { float: left; }
 .navbar-default .navbar-nav > .active > a:focus {
   background: #22a39f;
   color: #ffffff;
+  /* border-radius: 0px 0px 25px 25px; */
 }
+.navbar-default .navbar-nav > .active.last > a, 
+.navbar-default .navbar-nav > .active.last > a:hover, 
+.navbar-default .navbar-nav > .active.last > a:focus {
+  background: blue !important;
+}
+
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {
   background: #222222;
