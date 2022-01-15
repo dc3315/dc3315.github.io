@@ -1,30 +1,35 @@
 html,
 body {
   color: #434242;
-  font-family: "Open Sans" sans-serif !important;
+  font-family: 'Titillium Web', sans-serif;
   height: 100%;
 }
 body {
   background: #f3efe0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.64;
 }
 
-
-
 ul,li{
-  margin: 15px 0;
+  margin: 16px 0;
   padding: 0;
-  /* list-style-type: none; */
+  font-size: 17px;
+  list-style-type: none;
   list-style-position:inside;
 }
 
+.tagline {
+  font-size: 22px;
+}
 
 ul.no-space > li {
   margin:0px 0 !important;
   padding:0;
 }
-
+/* 
+h4 {
+  font-size: 45px;
+} */
 
 h1,
 h2,
@@ -40,12 +45,12 @@ h6,
 .h6,
 strong,
 b {
-  font-family: "Open Sans", sans-serif !important;
-  margin-bottom: 20px;
+  /* font-family: Playfair Display', serif;; */
+  margin-bottom: 0px;
 }
 h1,
 h4 {
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 h2,
@@ -68,7 +73,7 @@ p.title {
 }
 
 p.subtitle {
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
   color: #727878;
 }
@@ -304,11 +309,11 @@ dd { float: left; }
   color: #ffffff;
   /* border-radius: 0px 0px 25px 25px; */
 }
-.navbar-default .navbar-nav > .active.last > a, 
+/* .navbar-default .navbar-nav > .active.last > a, 
 .navbar-default .navbar-nav > .active.last > a:hover, 
 .navbar-default .navbar-nav > .active.last > a:focus {
-  background: blue !important;
-}
+  /* background: blue !important; 
+} */
 
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {
